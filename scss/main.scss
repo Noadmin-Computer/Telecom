@@ -1,0 +1,321 @@
+@import 'color' ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $rubik;
+}
+
+
+
+.wrap{
+    width: 95% !important;
+    margin: 0 auto;
+    .select-menu{
+        display: flex;
+        select{
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+    }
+    .navbar{
+        margin-top: 50px;
+        &-nav{
+            margin-left: 17%;
+            a{
+                color: $main-black !important;
+                font-size: 15px;
+            }
+         }
+    }
+  
+}
+.com-container{
+    width: 95% !important;
+    margin: 0 auto;
+    margin-top: 9%;
+    h1{
+        font-weight: bold;
+        font-size: 49px;
+        line-height: 69px;
+        color: $primary-color;
+
+    }
+    p{
+        width: 80%;
+        font-size: 21px;
+        line-height: 29px;
+        color: $info;
+
+    }
+    .btn-primary{
+        width: 249px;
+        height: 59px;
+        background: $primary-color;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        margin-top: 86px;
+    }
+  
+}
+.cards{
+    display: flex !important;
+    width: 95%;
+    height: 199px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: $shadow;
+    margin-top: 179px;
+    &-mini{
+        display: flex;
+        width: 30%;
+        height: 199px !important;
+        margin-left: 90px;
+        margin-top: 71.5px;
+        .right-side{
+            margin-left: 35.5px;
+        }
+      
+    }
+    .line{
+        width: 2px;
+        height: 125.57px;
+        background-color: $hr-color;
+        margin-top: 35px;
+    }
+
+}
+.fut-container{
+    width: 95%;
+   
+    margin: 0 auto;
+    margin-top: 149px;
+    .text {
+        h1{
+            width: 60%;
+            font-size: 34px;
+            line-height: 49px;
+            color: $primary-color;
+        }
+        p{
+            width: 60%;
+            font-size: 15px;
+            line-height: 29px;
+            color: $info;
+            i{
+                color: $primary-color;
+            }
+            a{
+                text-decoration: none;
+                color: $primary-color;
+            }
+        }
+    }
+  
+}
+.title{
+    margin-top: 150px;
+    text-align: center;
+    p{
+        width: 50%;
+        margin-left: 330px;
+    }
+}
+.pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 180vh;
+    background-color: $prdouct-bg ;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.pro-card{
+    width: 359px;
+    height: 354px;
+    background-color: $main-white;
+    box-shadow: $card-shadow;
+    border-radius: 24px;
+    margin-left: 50px;
+    margin-top: 190px;
+    &-image{
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    &-info{
+        margin-left: 35px;
+        margin-top: 20px;
+        h1{
+            font-size: 17px;
+            line-height: 29px;
+            display: flex;
+            align-items: center;
+            color: $main-black;
+        }
+        p{
+            font-size: 17px;
+            line-height: 29px;
+            color: $main-black;
+
+        }
+        button{
+            margin-top: 45.5px;
+            width: 40%;
+            border-radius: 20px;
+        }
+    }
+}
+.con-container{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-top: 154px;
+   img{
+       margin-top: 154px;
+   }
+}
+.con-title{
+    text-align: center;
+    p{
+        width: 50%;
+        margin-left: 300px;
+        font-size: 15px;
+        line-height: 29px;
+        color: $info;
+
+    }
+}
+.car-card{
+    width: 400px;
+    height: 230px;
+    border: 2px solid $primary-color;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+.contact{
+    position: absolute;
+    z-index: 10;
+    width: 95%;
+    height: 233px;
+    background-color: $prdouct-bg;
+    display: flex;
+    margin-left: 35px;
+    margin-top: 196px;
+    .con-left-side{
+        margin-top: 58px;
+        margin-left: 67px;
+    }
+    .con-right-side{
+        margin-left: 66px;
+        margin-top: 58px;
+        h1{
+            width: 55%;
+            font-size: 34px;
+            line-height: 44px;
+            color: $info;
+
+        }
+        p{
+            font-size: 15px;
+            line-height: 29px;
+            color: $info;
+
+        }
+        .contact-us-btn .btn{
+            position: absolute;
+            margin-left: 500px;
+            margin-top: -100px;
+            width: 250px;
+            height: 60px;
+            background: $primary-color;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            color: $main-white;
+        }
+    }
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: $footer;
+    padding: 70px 0;
+    margin-top: 400px;
+    &-col{
+        width: 25%;
+        padding: 0 15px;
+        h4{
+         font-size: 18px;
+         text-transform: capitalize;
+         margin-bottom: 35px;
+         margin-left: 25px;
+         font-weight: 500;
+         position: relative;
+         
+     }
+     .footer-ul{
+        margin-top: 20px;
+     }
+     i{
+         width:50px;
+         height: 50px;
+         border-radius: 50%;
+         padding-top: 20px;
+         padding-left: 18px;
+         background-color: $main-white;
+         color: $primary-color;
+     }
+     .copy{
+         margin-top: 20px;
+         color: $info;
+     }
+        ul li:not(:last-child){
+         margin-bottom: 10px;
+        }
+         a{
+             font-size: 16px;
+             text-transform: capitalize;
+             color: #000;
+             text-decoration: none;
+             font-weight: 300;
+             display: block;
+            
+         }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// media //
+// @media  (max-width:414px){
+//     &-nav{
+//         margin-left: 0;
+//     }
+// }
+
